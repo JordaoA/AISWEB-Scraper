@@ -5,19 +5,21 @@ def print_letters(letters):
             print(f'  Cartas {letter}:')
             print_letter_list(letters[letter])
     else:
-        print('Aeródromo não apresenta Cartas:')
+        print('Aeródromo não apresenta Cartas.')
 
 def print_letter_list(letter_list):
     for letter in letter_list:
         print(f'   {letter}')
 
 def print_meta_taf(meta_taf):
-    if meta_taf:
+    if not meta_taf['METAR']:
+        print('Aeródromo não apresenta Valores META.')
+    if not meta_taf['TAF']:
+        print('Aeródromo não apresenta Valores TAF.')
+    else:
         print('Valores META TAF:')
         print(f"   META: {meta_taf['METAR']}")
         print(f"   TAF: {meta_taf['TAF']}")
-    else:
-        print('Aeródromo não apresenta Valores META TAF:')
 
 def print_sun_times(sun_times):
     if sun_times:
