@@ -42,7 +42,7 @@ Caso não seja possível utilizar o `Make` para automatizar o processo, siga os 
 
 ```bash
     # Para subir o Backend (API) responsável pelo scraping.
-    docker build -t scraping-api .
+    	docker build -t scraping-api .
 	docker-compose up -d
 ```
 
