@@ -1,0 +1,6 @@
+# Scraping libs
+requests==2.31.0
+beautifulsoup4==4.12.2
+# Flask libs
+flask==2.3
+flask_pydantic_spec==0.4.5
