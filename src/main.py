@@ -44,23 +44,3 @@ while not end:
             
         else:
             print('Codigo ICAO não existe.\n')
-"""
-{
-    'letters': 
-        {
-         'ADC': ['ADC SBMT'], 
-         'PDC': ['PDC SBMT'], 
-         'VAC': ['RWY 12/30']
-        }, 
-    'meta_taf': 
-        {
-         'METAR': '151400Z 10006KT 9999 BKN019 21/17 Q1023=', 
-         'TAF': '150800Z 1512/1524 09005KT 9999 BKN015 TX23/1516Z TN18/1524Z BECMG 1513/1515 16010KT BKN025 BECMG 1519/1521 BKN015 PROB30 1522/1524 6000 BKN012 RMK PGN='
-        }, 
-    'sun_times': 
-        {
-         'sunrise': '08:33', 
-         'sunset': '21:11'
-        }
-}
-"""
