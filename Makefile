@@ -1,7 +1,7 @@
 PYTHON?=python3
 PIP?=$(PYTHON) -m pip
 
-run: docker-up
+run:
 	$(PYTHON) src/main.py
 
 docker-up:
