@@ -1,8 +1,6 @@
 import requests
 from utils import (print_letters, print_meta_taf, print_sun_times)
 
-# TODO - Criar menu para uso no terminal.
-# TODO - Criar lógica para funcionamento no caso de valores nullos.
 print("""
 Entre com código ICAO para receber informações como:
 
